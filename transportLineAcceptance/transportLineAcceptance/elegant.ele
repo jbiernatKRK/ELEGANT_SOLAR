@@ -1,0 +1,1072 @@
+
+
+&global_settings
+  mpi_io_write_buffer_size = 1048576,
+&end
+
+&run_setup
+  semaphore_file = run_setup.semaphore,
+  lattice = "elegant.lte",
+  centroid = %s.cen,
+  losses = %s.los,
+  acceptance = %s.acc,
+  output = "run_setup.output.sdds",
+  p_central_mev = 101.67,
+  parameters = "run_setup.parameters.sdds",
+  sigma = "run_setup.sigma.sdds",
+  use_beamline = "CAV",
+&end
+
+&run_control
+  n_steps = 2,
+&end
+
+&error_control
+  clear_error_settings = 0,
+&end
+
+&correct
+  bpm_output = "correct.bpm_output.sdds",
+  corrector_limit[0] = 10,10,
+  corrector_output = "correct.corrector_output.sdds",
+  statistics = "correct.statistics.sdds",
+  trajectory_output = "correct.trajectory_output.sdds",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R23",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q6",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q7",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q8",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q9",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q10",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q11",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q1",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q2",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q14",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q3",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q4",
+&end
+
+&error_element
+  amplitude = 0.001,
+  item = "K1",
+  name = "Q5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "TILT",
+  name = "Q5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "PITCH",
+  name = "Q5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "YAW",
+  name = "Q5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "Q5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "Q5",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "ANGLE",
+  name = "C1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "C1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "C1",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "ANGLE",
+  name = "C2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "C2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "C2",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R1",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R1",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R1",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R2",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R2",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R2",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R3",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R3",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R3",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R4",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R4",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R4",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R5",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R5",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R5",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R6",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R6",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R6",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R7",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R7",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R7",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R8",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R8",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R8",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R9",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R9",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R9",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R10",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R10",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R10",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R11",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R11",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R11",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R12",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R12",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R12",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R12",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R13",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R13",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R13",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R13",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R14",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R14",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R14",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R15",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R15",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R15",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R15",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R16",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R16",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R16",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R16",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R17",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R17",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R17",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R17",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R18",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R18",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R18",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R18",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R19",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R19",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R19",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R19",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R20",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R20",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R20",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R20",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R21",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R21",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R21",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R21",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R22",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R22",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DX",
+  name = "R22",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R22",
+&end
+
+&error_element
+  amplitude = 1,
+  item = "VOLT",
+  name = "R23",
+&end
+
+&error_element
+  amplitude = 0.01,
+  item = "PHASE",
+  name = "R23",
+&end
+
+&error_element
+  amplitude = 0.0001,
+  item = "DY",
+  name = "R23",
+&end
+
+&twiss_output
+  alpha_x = -0.44298884614732453,
+  alpha_y = 0.20908490923207182,
+  beta_x = 10.544011743942258,
+  beta_y = 2.3946465514054713,
+  filename = "twiss_output.filename.sdds",
+  filename = "%s.twi",
+  matched = 0,
+&end
+
+&sdds_beam
+  input = "Input_13_10_2022.sdds",
+&end
+
+&track
+&end
+

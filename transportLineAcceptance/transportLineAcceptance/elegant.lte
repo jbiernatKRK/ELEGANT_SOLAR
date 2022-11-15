@@ -1,0 +1,69 @@
+
+
+"CHARGE": CHARGE,total=2e-10
+"C1": CSRCSBEND,angle=0.198,bins=600,integration_order=2,isr=1,l=0.3
+"C2": CSRCSBEND,angle=-0.198,bins=600,block_csr=1,integration_order=2,isr=1,l=0.3
+"D1": DRIF,l=1
+"D10": DRIF,l=0.42
+"D11": DRIF,l=0.35
+"D12": DRIF,l=0.15
+"D13": DRIF,l=0.9
+"D14": DRIF,l=0.4
+"D15": DRIF,l=0.1
+"D2": DRIF,l=0.3
+"D3": DRIF,l=1.4
+"D4": DRIF,l=0.3
+"D5": DRIF,l=1.6
+"D6": DRIF,l=3.6
+"D7": DRIF,l=0.5
+"D8": DRIF,l=0.2
+"D9": DRIF,l=0.75
+"H1": HKICK,l=0.1
+"H2": HKICK,l=0.1
+"BPM_1": MONI
+"Q1": QUAD,k1=1.3,l=0.2
+"Q10": QUAD,k1=-11,l=0.1
+"Q11": QUAD,k1=10,l=0.1
+"Q12": QUAD,k1=-0.07
+"Q13": QUAD,k1=1,l=0.2
+"Q14": QUAD,k1=1.328,l=0.2
+"Q2": QUAD,k1=-2.58,l=0.2
+"Q3": QUAD,l=0.2
+"Q4": QUAD,l=0.2
+"Q5": QUAD,l=0.2
+"Q6": QUAD,k1=12,l=0.1
+"Q7": QUAD,k1=-12,l=0.1
+"Q8": QUAD,l=0.1
+"Q9": QUAD,k1=8,l=0.1
+"R24": RBEN,angle=0.198,l=0.3
+"R25": RBEN,angle=-0.198,l=0.3
+"R1": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R10": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R11": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R12": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R13": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R14": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R15": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R16": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R17": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R18": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R19": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R2": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R20": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R21": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R22": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R23": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R3": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R4": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R5": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R6": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R7": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R8": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"R9": RFCW,cell_length=0.017647,change_p0=1,end1_focus=1,end2_focus=1,freq=5712000000,l=1.8,phase=90,volt="35 1.8 * 1000000 *"
+"S-BAND": RFCW,cell_length=0.033333333,change_p0=1,end1_focus=1,end2_focus=1,freq=2998000000,l=5.199999948,phase=90,volt=100464000
+"S1": SBEN,angle=0.198,l=0.3
+"S2": SBEN,angle=-0.198,l=0.3
+"V1": VKICK,l=0.1
+"V2": VKICK,l=0.1
+"CAV": LINE=("CHARGE","D15","H1","D15","V1","D8","Q6","D8","Q7","D8","Q8","D2","Q12","C1","Q12","D10","Q12","C2","Q12","D10","Q12","C2","Q12","D10","Q12","C1","Q12","Q12","D12","H2","D15","V2","D8","Q9","D8","Q10","D8","Q11","D11","BPM_1","R1","D2","R2","D1","R3","D2","R4","D1","R5","D2","R6","D1","R7","D2","R8","D1","R9","D2","R10","D1","R11","D2","R12","BPM_1","D13","Q1","D4","Q2","D2","Q14","D14","R13","D2","R14","D1","R15","D2","R16","D1","R17","D2","R18","D1","R19","D2","R20","D1","R21","D2","R22","D1","R23","D5","Q3","D4","Q4","D4","Q5","D6")
+
